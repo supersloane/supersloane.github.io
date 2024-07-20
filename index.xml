@@ -90,7 +90,7 @@
     
     
         <item>
-        <title>About</title>
+        <title>开始</title>
         <link>http://localhost:1313/about/</link>
         <pubDate>Wed, 29 May 2024 22:49:20 +0800</pubDate>
         
@@ -107,6 +107,7 @@
         
         <guid>http://localhost:1313/blog1/</guid>
         <description>雪绒凤梨 http://localhost:1313/blog1/ -&lt;p&gt;&lt;em&gt;写在前面：还没有想好新博客的第一篇文章要写什么，先拿一个压箱底的小故事出来试一下hugo静态博客的博文格式。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/blog1.jpg&#34; alt=&#34;琴师&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;重逢&#34;&gt;重逢&lt;/h1&gt;
 &lt;p&gt;又是一个如水的凉夜，月光皎洁，北极星明亮，与我离宫的那个夜晚何其相似。&lt;/p&gt;
 &lt;p&gt;我抱来桐木琴，轻轻摘下琴套，席地而坐。今夜，就把那北极星当作你，为你弹奏你我最爱的琴曲。&lt;/p&gt;
