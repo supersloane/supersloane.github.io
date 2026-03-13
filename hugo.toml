@@ -17,3 +17,12 @@ theme = "hugo-theme-stack"
     page = [
       { type = "toc" }
     ]
+  
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2      # 从一级标题开始（可选，默认是2）
+    endLevel = 4        # 关键：结束层级改为4，让四级标题也显示
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

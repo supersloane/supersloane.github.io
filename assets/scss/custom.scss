@@ -1,0 +1,40 @@
+/* 目录标题 “Table of contents” 的颜色 */
+.widget-title.section-title {
+    color: #A7AAE1;   // 换成你喜欢的颜色
+}
+
+/* 所有目录链接的颜色 */
+#TableOfContents a {
+    color: #A7AAE1;   // 与标题同色，也可以单独设置
+    text-decoration: none; // 去掉下划线（可选）
+}
+
+/* 去掉所有圆点 */
+#TableOfContents ul,
+#TableOfContents li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 缩小行间距（可根据喜好调整数值） */
+#TableOfContents li {
+    line-height: 2.0;
+}
+
+/* 保持层级缩进（让子目录向右偏移） */
+#TableOfContents ul {
+    padding-left: 1.0em;       // 顶级目录左对齐
+}
+#TableOfContents li ul {
+    padding-left: 2.0em;   // 二级目录缩进
+}
+#TableOfContents li li ul {
+    padding-left: 3.0em;   // 三级目录缩进
+}
+
+mark {
+    background-color: #e6c9e2;  // 淡紫色，你可以微调色值
+    padding: 0.1em 0.2em;       // 可选：让高亮区域稍微有点内边距
+    border-radius: 2px;         // 可选：圆角效果
+}
